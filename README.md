@@ -8,6 +8,8 @@ A MATLAB function for batch-converting and processing TEM images. SmartBar's sca
 
 (I was disatisfied with the built-in options of all the microscopy programs I've had to deal with. So I decided to write my own batch-processing and scalebar-labeling function.)
 
+Current Version: 01.05
+
 ## Acceptable File Types
 
 .dm3 (Digital Micrograph)\
