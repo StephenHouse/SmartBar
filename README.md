@@ -55,6 +55,7 @@ _Whether to normalize the image intensities. If yes, the image intensities will 
 **STEMFractionSaturated**\
 A real number 0-1 (default = 0)\
 _Fraction of pixels (high & low) to saturate during normalization of STEM images. This value is also used for any image where the imaging mode cannot be determined._
+_(Note: It cannot currently distinguish TEM and STEM from .ser files. Both types will use _STEMFractionSaturated_.)_
 
 **TEMFractionSaturated**\
 A real number 0-1 (default 0.01 or 0.0005)\
